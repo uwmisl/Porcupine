@@ -3,13 +3,11 @@ Porcupine is a molecular tagging system to tag physical objects with DNA.
 
 Preprint available here: https://www.biorxiv.org/content/10.1101/2020.03.06.981514v1
 
+![](tagger_overview.gif)
+
 A provisional patent has been filed covering aspects of this work.
 
 # Contents of this repository
-
-All the code in this repository falls in roughly one of two categories: developing/designing Porcupine, or decoding molecular tags.
-
-Here's a list of each logical 
 
 1. Designing molbit barcodes
     * `molbit_design`
@@ -28,6 +26,7 @@ Here's a list of each logical
     * `read_count_variance_analysis` -- 
     * `time_to_decode_analysis` -- Evaluating how long it takes to decode a molecular tag.
 
+More details on each of these sections can be found below.
 
 # Data 
 
@@ -49,7 +48,7 @@ Here's a list of each logical
 
 ## What's in each run
 
-| **Run name** | **Molbit set in this run** | **Molbit set(s) previously on this flowcell** | **Train/test** |
+| **Run name** | **Molbit set in this run** | **Molbit set(s) previously on this flowcell** | **Description** |
 | ------------ | -------------------------- | --------------------------------------------- | -------------- |
 | 08_09_2019_run_01 | 0 |  | training data |
 | 08_13_2019_run_02 | 1 | 0 | training data |
@@ -69,7 +68,7 @@ Here's a list of each logical
 
 ## molbit_design
 
-Contains the evolutionary model
+Contains the evolutionary model.
 
 Also contains the method used to create sets of molbits that are easier to label when multiplexed (i.e., that are more distinct on average than the full set of 96). This is not the absolute optimally distinct set of sequences, but rather a quick & dirty way to produce sets that are distinct enough to reduce labeling collisions.
 
