@@ -34,6 +34,7 @@ Here's a list of each logical
 ## Sets of molbits
 
 | **Set #** | **#/molbits** | **Description** | **Molbits** |
+| --------- | ------------- | --------------- | ----------- |
 | 0 | 16 | train | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15 |
 | 1 | 16 | train | 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31 |
 | 2 | 16 | train | 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47 |
@@ -49,6 +50,7 @@ Here's a list of each logical
 ## What's in each run
 
 | **Run name** | **Molbit set in this run** | **Molbit set(s) previously on this flowcell** | **Train/test** |
+| ------------ | -------------------------- | --------------------------------------------- | -------------- |
 | 08_09_2019_run_01 | 0 |  | training data |
 | 08_13_2019_run_02 | 1 | 0 | training data |
 | 08_13_2019_run_03 | 2 | 0, 1 | training data |
