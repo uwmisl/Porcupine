@@ -61,7 +61,7 @@ To do this, start a jupyter notebook server. Replace file locations at the top o
 
 Run the notebook and the decoded tag will be at the bottom of the file. If the actual tag is known, it can be inserted at the bottom of the file for a comparison to the decoded tag.
 
-With a GPU, this takes about 20 mins to run (uses all data, not accumulated over time). On a CPU without parallization active, this takes about ~~~ to run.
+With a GPU, this takes about 2 mins to run (uses all data, not accumulated over time). On a CPU without parallization active, this takes about 12 mins to run. (~35 min sequencing run, excludes extracting f5 data.)
 
 # Reproduction
 
