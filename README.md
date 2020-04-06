@@ -28,6 +28,41 @@ A provisional patent has been filed covering aspects of this work.
 
 More details on each of these sections can be found below.
 
+# System requirements
+
+This repository was developed using python 3.6. The functions imported from the various packages are relatively stable and should not be impacted by slight version changes, with the exception of pytorch.
+
+The following python packages are required:
+* pytorch
+* seaborn
+* matplotlib
+* h5py
+* pandas
+* numpy
+* jupyter
+
+We used guppy for basecalling (GPU 3.2.2).
+
+We used C and make for the ECC; however, a compiled version of this simple decoder program is included.
+
+# Installation guide
+
+The bulk of this repository consists of jupyter notebooks. Installing this repository after downloading it requires running a jupyter notebook server with the listed packages installed. A GPU is highly recommended.
+
+# Demo & instructions
+
+For a typical tagging experiment (actual tag contents unknown), run the [all-in-one classification & decoding](https://github.com/uwmisl/Porcupine/blob/master/classify_and_decode_basecall_free/classify_and_decode.ipynb).
+
+To do this, start a jupyter notebook server. Replace file locations at the top of `classify_and_decode.ipynb` with the location of the fast5 reads and the desired output directory (for memoized files). If running this from within the directory structure of the repository, all other file references (e.g., to the saved trained model) can be left alone.
+
+Run the notebook and the decoded tag will be at the bottom of the file. If the actual tag is known, it can be inserted at the bottom of the file for a comparison to the decoded tag.
+
+With a GPU, this takes about 20 mins to run (uses all data, not accumulated over time). On a CPU without parallization active, this takes about ~~~ to run.
+
+# Reproduction
+
+All results in the paper can be reproduced with code from the various sections and data from the runs described below. Some visualizations were tweaked in Adobe Illustrator (e.g., font size, annotations, colors) but all raw visualizations are stored in the plots folder.
+
 # Data 
 
 ## Sets of molbits
