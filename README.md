@@ -40,10 +40,14 @@ The following python packages are required:
 * pandas
 * numpy
 * jupyter
+* ucrdtw (for sequence design)
 
-We used guppy for basecalling (GPU 3.2.2).
+Other software:
+* Guppy (GPU 3.2.2) -- basecalling
+* Scrappie (1.3.2) -- squiggle design
+* C and make -- ECC; however, a compiled version of this simple decoder program is included.
 
-We used C and make for the ECC; however, a compiled version of this simple decoder program is included.
+When designing molbits, we used the minimum free energy calculations as provided by NUPACK, wrapped as a python library internal to the lab. Unfortunately due to license restrictions, this library cannot be released.
 
 # Installation guide
 
