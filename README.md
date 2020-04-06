@@ -33,7 +33,7 @@ More details on each of these sections can be found below.
 This repository was developed using python 3.6. The functions imported from the various packages are relatively stable and should not be impacted by slight version changes, with the exception of pytorch.
 
 The following python packages are required:
-* pytorch
+* pytorch 1.1.0, CUDA 10
 * seaborn
 * matplotlib
 * h5py
