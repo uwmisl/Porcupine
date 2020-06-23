@@ -51,7 +51,7 @@ When designing molbits, we used the minimum free energy calculations as provided
 
 # Installation guide
 
-The bulk of this repository consists of jupyter notebooks. Installing this repository after downloading it requires running a jupyter notebook server with the listed packages installed. A GPU is highly recommended.
+The bulk of this repository consists of jupyter notebooks. Installing this repository after downloading it requires running a jupyter notebook server with the listed packages installed. Installation of this tool takes just a few minutes; however, installing pytorch, CUDA, and scrappie (which must be compiled manually) can take longer. A GPU is highly recommended.
 
 # Demo & instructions
 
@@ -68,6 +68,8 @@ With a GPU, this takes about 2 mins to run (uses all data, not accumulated over 
 All results in the paper can be reproduced with code from the various sections and data from the runs described below. Some visualizations were tweaked in Adobe Illustrator (e.g., font size, annotations, colors) but all raw visualizations are stored in the plots folder.
 
 # Data 
+
+The FAST5 datasets generated and analyzed during the current study are available in the Harvard Dataverse repository, https://doi.org/10.7910/DVN/RCLFNB.
 
 ## Sets of molbits
 
