@@ -1,21 +1,31 @@
-MIT License
+Academic and Nonprofit Research Institution Software License Agreement 
+Porcupine Software
 
-Copyright (c) 2020 Molecular Information Systems Lab
+© 2019-2020, University of Washington.  All rights reserved.  
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+The University of Washington (UW) and gives you permission for you and your laboratory (Institution) to use the Porcupine software (Software). 
+Porcupine is a molecular tagging system to tag physical objects with DNA.
+Software is protected by a United States copyright. UW allows researchers at your Institution to use and copy Software, for internal, non-profit research purposes, on the following conditions:
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+1. Institution is a nonprofit institution of higher education or a nonprofit research institution.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+2. The Software remains at your Institution and is not published, distributed, or otherwise transferred or made available to other than Institution employees and students involved in research under your supervision. 
+
+If you wish to obtain Software for any commercial or any other purposes, you will need to execute a separate licensing agreement with the University of Washington and pay a fee. This includes, but is not limited to, using Software to provide services to outside parties for a fee. In that case please contact:
+
+University of Washington CoMotion
+4545 Roosevelt Way NE, Suite 400
+Seattle, WA 98105
+(206) 543-3970
+license@u.washington.edu
+
+3. You retain in Software the copyright, trademark, patent or other notices pertaining to Software as provided by UW.
+
+4. If utilization of the Software results in outcomes which will be published, please specify the version of Software you used and cite the UW Software. The current citations are:
+
+n/a
+
+6. Any risk associated with using the Software at your Institution is with you and your Institution. Software is experimental in nature and is made available as a research courtesy "AS IS," without obligation by UW to provide accompanying services or support.
+
+UW AND THE DEVELOPERS EXPRESSLY DISCLAIM ANY AND ALL WARRANTIES REGARDING THE SOFTWARE, WHETHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES PERTAINING TO MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.
+
