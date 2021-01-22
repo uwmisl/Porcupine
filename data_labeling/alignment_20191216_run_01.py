@@ -98,8 +98,6 @@ def read_fastq(fastq_fname):
 
 # In[8]:
 
-
-from pore_utils import raw_signal_utils
 from pore_utils import smith_waterman as s_w
 
 
